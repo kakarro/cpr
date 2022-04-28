@@ -8,7 +8,7 @@
 #include <stdexcept>
 #include <string>
 
-#include "curl.h"
+#include <curl/curl.h>
 
 #include "cpr/cprtypes.h"
 #include "cpr/util.h"
