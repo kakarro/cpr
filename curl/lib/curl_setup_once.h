@@ -165,7 +165,7 @@ struct timeval {
 #else /* HAVE_RECV */
 #ifndef sread
   /* */
-  Error Missing_definition_of_macro_sread
+  Error Missing_definition_of_macro_sread;
   /* */
 #endif
 #endif /* HAVE_RECV */
@@ -196,7 +196,7 @@ struct timeval {
 #else /* HAVE_SEND */
 #ifndef swrite
   /* */
-  Error Missing_definition_of_macro_swrite
+  Error Missing_definition_of_macro_swrite;
   /* */
 #endif
 #endif /* HAVE_SEND */
